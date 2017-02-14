@@ -1,0 +1,13 @@
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\BankManager.Tests.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\BankManager.Tests.pdb
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\BankManager.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\nunit.framework.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\BankManager.pdb
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\nunit.framework.xml
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\obj\Debug\BankManager.Tests.csprojResolveAssemblyReference.cache
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\obj\Debug\BankManager.Tests.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\obj\Debug\BankManager.Tests.pdb
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\Castle.Core.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\Moq.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\Castle.Core.xml
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager.Tests\bin\Debug\Moq.xml
