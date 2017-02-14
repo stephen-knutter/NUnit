@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using Moq;
+using System.Threading;
 
 namespace BankManager.Tests
 {
@@ -37,11 +38,15 @@ namespace BankManager.Tests
         [Test]
         public void ProcessTransaction_TransactionValueGiven_TellerSubmitsGivenTransactionToTheRepository()
         {
-            const int depositAmount = 10;
+            var transaction = new SimpleTransaction(10);
+            var processTransactionTrigger = new ManualResetEvent(false);
+            Mock.Get(_accountRepository).Setup(x => x.ProcessTransaction(transaction.CalculateTotalTransaction()))
+                .Callback(() => processTransactionTrigger.Set());
 
-            _teller.ProcessTransaction(depositAmount);
+            _teller.ProcessTransaction(transaction);
 
-            Mock.Get(_accountRepository).Verify(x => x.ProcessTransaction(depositAmount), Times.Once(),
+            processTransactionTrigger.WaitOne(TimeSpan.FromSeconds(1));
+            Mock.Get(_accountRepository).Verify(x => x.ProcessTransaction(transaction.CalculateTotalTransaction()), Times.Once(),
                 "teller should forward the process transaction request to the repository");
         }
     }
