@@ -9,3 +9,14 @@ C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager\
 C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager\bin\Debug\Moq.dll
 C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager\bin\Debug\Castle.Core.xml
 C:\Users\sknutter\Documents\Visual Studio 2015\Projects\BankManager\BankManager\bin\Debug\Moq.xml
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\BankManager.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\BankManager.pdb
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\Castle.Core.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\Moq.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\nunit.framework.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\Castle.Core.xml
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\Moq.xml
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\bin\Debug\nunit.framework.xml
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\obj\Debug\BankManager.csprojResolveAssemblyReference.cache
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\obj\Debug\BankManager.dll
+C:\Users\sknutter\Documents\Visual Studio 2015\Projects\NUnit\BankManager\BankManager\obj\Debug\BankManager.pdb
