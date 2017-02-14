@@ -16,5 +16,10 @@ namespace BankManager
         }
 
         public abstract int CalculateTotalTransaction();
+
+        public override string ToString()
+        {
+            return "Base = " + BaseAmount;
+        }
     }
 }

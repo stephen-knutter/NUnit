@@ -39,5 +39,28 @@ namespace BankManager.Tests
             Assert.That(transactions.First, Is.EqualTo(depositAmount),
                 "Deposit amount should equal 10");
         }
+
+        public static IEnumerable<Object> Transactions
+        {
+            get
+            {
+                yield return new TestCaseData(new SimpleTransaction(10));
+                yield return new TestCaseData(new SimpleTransaction(0));
+                yield return new TestCaseData(new SimpleTransaction(-1));
+                yield return new TestCaseData(new FeeTransaction(10,2));
+            }
+        }
+
+        [TestCaseSource("Transactions")]
+        public void GetBalance_WithOneTransaction_ReturnsTotalOfTransaction(Transaction transaction)
+        {
+            var totalOfTransaction = transaction.CalculateTotalTransaction();
+            _accountRepository.ProcessTransaction(totalOfTransaction);
+
+            var currentBalance = _accountRepository.GetBalance();
+
+            Assert.That(currentBalance, Is.EqualTo(totalOfTransaction),
+                "Balance of one transaction should equal the total of that one transaction");
+        }
     }
 }

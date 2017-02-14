@@ -14,11 +14,11 @@ namespace BankManager.Tests
         [SetUp]
         public virtual void SetUp()
         {
-            var logger = Mock.Of<ILogger>();
-            Mock.Get(logger).Setup(x => x.WriteLine(It.IsAny<string>()))
-                .Callback<string>(Console.WriteLine);
-            Logging.Logger = logger;
-            // Logging.Logger = Mock.Of<ILogger>();
+            //var logger = Mock.Of<ILogger>();
+            //Mock.Get(logger).Setup(x => x.WriteLine(It.IsAny<string>()))
+            //    .Callback<string>(Console.WriteLine);
+            //Logging.Logger = logger;
+            Logging.Logger = Mock.Of<ILogger>();
         }
     }
 }
